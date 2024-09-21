@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Agrego el link directo del CSS -->
+
+</head>
+
+<body>
+    <!-- Aqui creo el menu de seleccion -->
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">CUSTOM SHIRTS</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienesSomos.html">Quienes somos</a></li>
+                    <li><a href="">Nuestros clientes</a></li>
+                    <li><a href="">Equipo</a></li>
+                    <li><a href="#barraContacto">Contactanos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg" id="img-carrito" alt="carrito">
+                        <!-- Cambiar en un futuro la imagen -->
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precios</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar-Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--<div class="slider">
+            <ul>
+                <li><img src="imagenes/slider1.jpg" alt=""></li>
+                <li><img src="imagenes/slider2.jpg" alt=""></li>
+                <li><img src="imagenes/slider3.jpg" alt=""></li>
+                <li><img src="imagenes/slider4.jpg" alt=""></li>
+                <li><img src="imagenes/slider5.jpg" alt=""></li>
+            </ul>
+        </div>-->
+
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="imagenes/LogoCamisa.jpg" alt=""> <!-- Cambiar en un futuro la imagen -->
+            </div>
+            <div class="header-txt">
+                <h1>Custom Shirts</h1>
+                <p></p>
+
+            </div>
+        </div>
+
+    </header>
+    <h2>Servicios</h2>
+    <!-- aqui van los productos que luego le cambiaremos la imagen -->
+    <section class="ofert container">
+        <div class="ofert-1">
+            <img src="imagenes/camisa 1.jpg" alt=""> <!-- Cambiar en un futuro la imagen -->
+        </div>
+        <div class="ofert-txt">
+            <h3>Personalizacion</h3>
+            <a href="#" class="btn-2">Camisas personalizadas para tus eventos Infantiles</a>
+        </div>
+        <div class="ofert-1">
+            <img src="imagenes/camisa 2.jpg" alt=""> <!-- Cambiar en un futuro la imagen -->
+        </div>
+        <div class="ofert-txt">
+            <h3>Personalizacion</h3>
+            <a href="#" class="btn-2">Personaliza tu camisa a tu gusto</a>
+        </div>
+        <div class="ofert-1">
+            <img src="imagenes/camisa 3.jpg" alt=""> <!-- Cambiar en un futuro la imagen -->
+        </div>
+        <div class="ofert-txt">
+            <h3>Personalizacion</h3>
+            <a href="#" class="btn-2">Camisa personalizada de tu serie o película favorita</a>
+        </div>
+    </section>
+
+
+
+    <main class="products container" id="lista-1">
+
+        <h2>Productos y Servicios</h2>
+
+        <!DOCTYPE html>
+        <html lang="es">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Productos</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+
+        <body>
+            <div class="product-content">
+                <div class="product">
+                    <img src="imagenes/camisa 4.jpg" alt="">
+                    <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+                    <div class="product-txt">
+                        <h3>Parejas</h3>
+                        <p>Dos camisas para pareja</p>
+                        <p class="Precio">$20</p>
+                        <a href="#" class="Agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/camisa 5.jpg" alt=""> <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+                    <div class="product-txt">
+                        <h3>Infantiles</h3>
+                        <p>Cuatro camisas con tu caricatura favorita a solo</p>
+                        <p class="Precio">$30</p>
+                        <a href="#" class="Agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="imagenes/camisa 6.jpg" alt=""> <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+                    <div class="product-txt">
+                        <h3>Negocios</h3>
+                        <p>Camisas por mayoreo para tu negocio 
+                            $90 la docena</p>
+                        <p class="Precio">$90</p>
+                        <a href="#" class="Agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                  
+                </div>
+            </div>
+        </body>
+
+        </html>
+
+
+
+        </div>
+
+    </main>
+
+    <section class="icons container">
+        <div class="icon-img">
+            <img src="imagenes/crea-product-8.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3>Mision</h3> <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+            <p>
+                Nos dedicamos a satisfacer las necesidades de nuestros clientes mediante la comercialización de camisas personalizadas para todas las edades, garantizando productos de excelente calidad y con el respaldo de una garantía del 100%..
+            </p>
+        </div>
+
+        <div class="icon-img">
+            <img src="imagenes/iconmonstr-diamond-8.svg" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3>Vision</h3> <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+            <p>
+                Ser una empresa líder a nivel departamental en la venta de camisas personalizadas, reconocida por su calidad y compromiso con la satisfacción del cliente.
+            </p>
+        </div>
+
+        <div class="icon-img">
+            <img src="" alt="">
+        </div>
+        <div class="icon-txt">
+            <h3></h3> <!-- Cambiar en un futuro la imagen y el nombre del H3 -->
+            <p>
+                
+            </p>
+        </div>
+
+    </section>
+
+    
+
+    </section>
+
+    <footer id="barraContacto">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2Zz08TQRTHNzM0MQHixaMnI2jE4Mmr/4A/okej3r0oAn+AiYke9IYkpDNFDAkRqokHL4bEEzFelIqAJP5IDPvetrXQAhXSsrRjplYMboGdnd0th/0m79TN7Pcz8+bN7KthRIoUKZJUbNg8Qxj0UYZJwnCGcsxTjpv1yBOGH2u/cbNXPmscCCVy7YRDP2XwmXIUSsFgXgIbg9m28I3fFS1yJinDZWXjDhBcIgzvyDHDMR/Hk4RjStv4f0EYThsJOBGodxqHS5RD0W/z9F9arVEOFwMxTxLWDcrBDsw8/xtgE25dD2LmQzCP2xCUwQV/3A+ZHX+WVs9U24glOiey4uzLn6LreVZ0jGfE4afWXhBFud98qDbeN2wLR3H1TV5Mpctis1IVjXR5cnn3jc3hg1Z1qpVKj+YPDVti4vuG2E9X9gCoQcSxx5v70XQr5ZDzCvBwpriveTcA8pyQB6aH2Yd+r+aPjmVEeZeUUQbg8oyAPmUAT9eDevS+W2lotlCuiPupNXFzqrAdx55l9h+TwbySeXnZ0qk4498a5/65VznPY8YS6dOhpI+Mt5myw/zs8qbn8ajqZpbXXp2XzeVtB8DY1w0tAMpwXGEF8JPOyxYKToDHc7/0VoBjSmUFlvwGGNAEoBxyKgDlgweApUAA7k2viXypsiO2GhwBpa2q47l8qSK6X2QDAXCdQo9cnriNVBVCtI9Y/qeQyibWAfhR3ApsEyfDAJiEUkBlVLZHQgAYUNjYhONt1wAxbnarfKgcGU3viC8rzirEFtYdz7U+cZv/KGIs3eUaoL4KswolLtgyyhQvc6ppFDQA4WZvqB80vgIwXPLcvZMds2YDEIa3DK2PeobTzQIgHN4bSUENLfHF45TBavgA4ENbpS7Z7lNpbOkDgE0T5nnDT8l2n1sIPQCwCcNrRhCS7T43XTrPAAxWfZ95hxh0yo6Z3wBEbtghs8MIRbI6xbFnt2u3GgDkaqVSu9p40WC2TZ7YhMOcKoC8qhB5wjblL6YGkpet2qpwnHhtlgqLRbuybleFDLNoVx6kVi15Ja61R4atU832GylSJONg6DekIcfGE7hs2QAAAABJRU5ErkJggg=="
+                    alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACxUlEQVR4nO2ZzW8NURjGf6ibiGq3NNVa+VpIhA0hwm2FWND4E8SC8Ad0J0KtbGnF19rXSpNKJBYsSrHAjrauYkEX6qsJtx15k2eSk8m97Z2Z3jMX8yQnN3M+3vM+Z87znnfOhRw5cuRodKwBBoAJoAwEdS5lzdUPdKZ1fi/w1YPTQZUyBXSlWfksnQ8cEh1JCAw4RsaAPUCB+qMAFIFxZ/6LSQxNOAbMed8oOvOXkhhwBetj5aMoRIQdG+4+zApBGh/+aQJNwOMqUeNKjfYPaGvcBZb4JmDYAPwEZoE7wA3gqfr3zGN7K/Bd/Zen8CEVAcMJtZ/Sc6vC32dgVZUx7cB7lfYF8CHV4EXAIPAb2Ka6Hdoa99TuogV4ocNp0wL5UBVvNdBWdC60AZPAa6BZdec09rjTbylwH/gFdNfoQ5CGgK3QmRpX6rAmueTE8OfAD2C93sQ19TnSqJHwuiY6qOeNEvkIcFptfTFtBj4JNGsbmYBXqu6k44BFqcWNfhbtlIAHtW2sDMmB3QnszWqs/XpDVMBteitvHJHXikey9TCJIya+XmBtzHEm4GcS8LqIyC/HtNUK7NNvbIT5uK1cHCwDhjV2ROHTcFV1h/CEIIGATKS3tWdvaayFYsMKYBT45Ii84QicV/9e55SeAXapfbtEPlThlM6cwNEK2Wh4So8pjUBvxPodo4EI7Fc+9KDC11uPbJgGwlR8OCLyTAlsBr4BL+eIFuEpbdEIOW4Enjgir4Q+2T5bLwKrgQ/Ax3muPloU1Sa1rdAWCpRmVMO0+kzXg0CYGtuHyZYYp/QrpRU3lZm6qXhcHxITaFK+PxMzroendLSMKsx6I+ALwX9NoPy3X2y9y/hqscuZ3z5vY6PfMTAug74ud7sjl7sXkhjq1O1BkHH5kvR6Ha36VMbOF0mJDr3Ckse/mEqaM/HK58iRIwde8AdEPseVHL4SRAAAAABJRU5ErkJggg=="
+                    alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <img src="data:image/png;base64,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"
+                    alt="Instagram">
+            </a>
+            <a href="https://whatsapp.com" target="_blank" class="social-icon">
+                <img src="data:image/png;base64,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"
+                    alt="WhatsApp">
+            </a>
+        </div>
+        <p>
+        <h1>CUSTOM SHIRTS</h1>
+        </p>
+        <img src="imagenes/LogoCamisa.jpg" width="50px">
+    </footer>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+
+
+            <div class="link">
+                <h3>Derek Rafael Ramírez Martínez</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Jairo Andrés Villanueva portillo</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Karla Paola Morán Linares</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Kevin</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-content container form-container"></div>
+
+        <form action="https://formspree.io/xoqgoaen" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        </div>
+
+    </footer>
+
+    <!--Start of Tawk.to Script-->
+    
+    <!--End of Tawk.to Script-->
+
+
+    <!-- Burbuja flotante de WhatsApp -->
+    <a href="https://wa.me/50372909161" class="whatsapp-float" target="_blank">
+        <img src="data:image/png;base64,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"
+            alt="WhatsApp">
+    </a>
+
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
